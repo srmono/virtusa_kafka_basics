@@ -1,0 +1,67 @@
+Download and Install 
+
+Java: 
+https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html
+
+Kafka:
+https://archive.apache.org/dist/kafka/2.4.1/kafka_2.13-2.4.1.tgz
+
+-----------------------------------------------
+
+Linux
+    bin/*.sh 
+
+Windows 
+    ./bin/windows/*.bat
+
+-------------------------------------------
+log.dirs=C:/kafka/kafka-logs
+dataDir=C:/kafka/zookeeper-data
+
+------------------------------------------------------
+
+java        Done
+zookeeper
+    .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+kafka 
+    .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+topic
+    .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic vritusademotopic
+    .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic vritusademotopictwo
+
+    .\bin\windows\kafka-topics.bat 
+        --create 
+        --zookeeper localhost:2181 
+        --replication-factor 1 
+        --partitions 1 
+        --topic vritusademotopic
+
+List topics:
+    .\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+
+producer 
+    .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic vritusademotopic
+
+    .\bin\windows\kafka-console-producer.bat 
+        --broker-list localhost:9092 
+        --topic vritusademotopic
+
+consumer
+    .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic vritusademotopic --from-beginning
+
+    .\bin\windows\kafka-console-consumer.bat 
+        --bootstrap-server localhost:9092 
+        --topic vritusademotopic 
+        --from-beginning
+
+---------------------------------------------------------------------
+
+SpringBoot app for producer
+    spring web
+    spring for apache kafka 
+
+
+SpringBoot app for consumer
+    spring for apache kafka 

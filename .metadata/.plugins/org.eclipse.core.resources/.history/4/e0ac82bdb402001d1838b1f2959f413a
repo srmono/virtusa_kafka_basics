@@ -1,0 +1,9 @@
+package com.virtusa.kafka;
+
+public class Product {
+
+	private String prodName;
+	private String isbn;
+	
+	
+}

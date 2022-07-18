@@ -67,6 +67,7 @@ SpringBoot app for consumer
     spring for apache kafka 
 
 -----------------------------------------------
+logging.pattern.console: value
 
 logging:
   pattern:

@@ -42,17 +42,17 @@ List topics:
     .\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
 
 producer 
-    .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic vritusademotopic
+    .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic vritusademotopictwo
 
     .\bin\windows\kafka-console-producer.bat 
         --broker-list localhost:9092 
         --topic vritusademotopic
 
 consumer
-    .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic vritusademotopic --from-beginning
+    .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic vritusademotopictwo
 
     .\bin\windows\kafka-console-consumer.bat 
-        --bootstrap-server localhost:9092 
+        --bootstrap-server localhost:9092
         --topic vritusademotopic 
         --from-beginning
 
@@ -65,3 +65,14 @@ SpringBoot app for producer
 
 SpringBoot app for consumer
     spring for apache kafka 
+
+-----------------------------------------------
+
+logging:
+  pattern:
+    console: "[Kafka Core Consumer] %clr(%d{HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:%5p}) %clr(---){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}"
+
+logging:
+  pattern:
+    console: "[Kafka Core Producer] %clr(%d{HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:%5p}) %clr(---){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}"
+

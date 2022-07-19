@@ -40,3 +40,17 @@ List topics:
 Describe Topic:
     kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic t-hello
 
+------------------------------
+
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-hello --partitions 1 --replication-factor 1
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-fixedrate --partitions 1 --replication-factor 1
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-fixedrate-2 --partitions 1 --replication-factor 1
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-multi-partitions --partitions 1 --replication-factor 1
+
+kafka-topics.sh --bootstrap-server localhost:9092 --alter --topic t-multi-partitions --partitions 4 
+
+
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-employee --partitions 1 --replication-factor 1
+
+
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --offset earliest --partitions 0 --topic t-employee

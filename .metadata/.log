@@ -8914,3 +8914,15 @@ java.util.concurrent.TimeoutException
 
 !ENTRY Activator 1 0 2022-07-18 20:19:28.820
 !MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-18 22:22:52.435
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.apVvXbTX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-18 22:22:52.436
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.apVvXbTX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-18 22:22:52.436
+!MESSAGE subsribers = {sts4.classpath.BUdzfSxO=Send Classpath Notifications(175)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-18 22:22:52.437
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.apVvXbTX => OK

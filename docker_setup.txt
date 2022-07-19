@@ -1,0 +1,23 @@
+step1: enable hyper-v and windows system linux 
+
+    control panel -> 
+        programs & features -> 
+            left side select windows features on and off -> 
+                select "Hyper-v" and "windows sub system for linux" ->
+                    follow the steps and restart your system 
+
+step2: Download and install wsl and docker 
+
+- First install wsl: 
+    wsl: https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi 
+
+- install docker after wsl installation:
+    docker_desktop: https://docs.docker.com/desktop/install/windows-install/
+
+step3: start docker desktop
+    start docker desktop (if required restart system/docker desktop)
+
+ensure that docker desktop is running 
+
+Note: launching kafka container I will explain in the session 
+

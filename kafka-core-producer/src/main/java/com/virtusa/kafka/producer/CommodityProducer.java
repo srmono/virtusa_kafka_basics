@@ -6,10 +6,11 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.virtusa.kafka.entity.Commodity;
 import com.virtusa.kafka.entity.Employee;
 
-//@Service
-public class Employee2JsonProducer {
+@Service
+public class CommodityProducer {
 	
 	@Autowired
 	private ObjectMapper objectMapper;
@@ -17,10 +18,10 @@ public class Employee2JsonProducer {
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
 
-	public void sendMessage(Employee employee) throws JsonProcessingException {
+	public void sendMessage(Commodity commodity) throws JsonProcessingException {
 		
-		var json = objectMapper.writeValueAsString(employee);
+		var json = objectMapper.writeValueAsString(commodity);
 		
-		kafkaTemplate.send("t-employee-2", json);
+		kafkaTemplate.send("t-commodity", commodity.getName(), json);
 	}
 }

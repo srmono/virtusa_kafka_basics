@@ -5,6 +5,8 @@ logging:
 spring:
   main:
     banner-mode: off
+  jackson:
+    date-format: yyyy-MM-dd   
   kafka:
     consumer:
       group-id: default-spring-consumer

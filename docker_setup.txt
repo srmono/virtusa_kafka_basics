@@ -51,6 +51,9 @@ kafka-topics.sh --bootstrap-server localhost:9092 --alter --topic t-multi-partit
 
 
 kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-employee --partitions 1 --replication-factor 1
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-employee-2 --partitions 1 --replication-factor 1
 
 
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --offset earliest --partitions 0 --topic t-employee
+
+

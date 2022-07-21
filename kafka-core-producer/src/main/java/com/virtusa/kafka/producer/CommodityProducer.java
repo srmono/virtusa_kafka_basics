@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.virtusa.kafka.entity.Commodity;
 import com.virtusa.kafka.entity.Employee;
 
-@Service
+//@Service
 public class CommodityProducer {
 	
 	@Autowired

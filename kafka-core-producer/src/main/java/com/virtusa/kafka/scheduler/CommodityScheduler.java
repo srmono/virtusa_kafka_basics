@@ -13,7 +13,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.virtusa.kafka.entity.Commodity;
 import com.virtusa.kafka.producer.CommodityProducer;
 
-@Service
+//@Service
 public class CommodityScheduler {
 
 	private RestTemplate restTemplate = new RestTemplate();

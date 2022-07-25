@@ -11,7 +11,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.virtusa.kafka.entity.CarLocation;
 
-@Service
+//@Service
 public class CarLocationConsumer {
 	
 	private static final Logger LOG = LoggerFactory.getLogger(CarLocationConsumer.class);

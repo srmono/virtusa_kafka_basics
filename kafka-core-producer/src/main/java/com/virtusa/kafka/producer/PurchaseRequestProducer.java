@@ -6,10 +6,10 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.virtusa.kafka.entity.CarLocation;
+import com.virtusa.kafka.entity.PurchaseRequest;
 
 //@Service
-public class CarLocationProducer {
+public class PurchaseRequestProducer {
 
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
@@ -17,13 +17,9 @@ public class CarLocationProducer {
 	@Autowired
 	private ObjectMapper objectMapper;
 	
-	public void send(CarLocation carLocation) throws JsonProcessingException {
-		var json = objectMapper.writeValueAsString(carLocation);
-		
-		kafkaTemplate.send("t-location", json);
+	public void send(PurchaseRequest purchaseRequest) throws JsonProcessingException {
+		var json = objectMapper.writeValueAsString(purchaseRequest);
+		kafkaTemplate.send("t-purchase-request", purchaseRequest.getPrNumber(), json);
 	}
 	
 }
-
-
-

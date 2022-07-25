@@ -78,3 +78,10 @@ kafka-topics.sh  --bootstrap-server localhost:9092 --topic t-rebalance --describ
 -- filtering messages
 
 kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-location --partitions 1 --replication-factor 1
+
+--- 
+
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-purchase-request --partitions 1 --replication-factor 1
+
+
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-payment-request --partitions 1 --replication-factor 1

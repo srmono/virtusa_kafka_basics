@@ -12,7 +12,7 @@ import com.virtusa.kafka.producer.CarLocationProducer;
 
 
 
-@Service
+//@Service
 public class CarLocationScheduler {
 
 	private static final Logger LOG = LoggerFactory.getLogger(CarLocationScheduler.class);

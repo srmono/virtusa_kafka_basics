@@ -6,11 +6,10 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.virtusa.kafka.entity.PaymentRequest;
-import com.virtusa.kafka.entity.PurchaseRequest;
+import com.virtusa.kafka.entity.SimpleNumber;
 
-//@Service
-public class PaymentRequestProducer {
+@Service
+public class SimpleNumberProducer {
 
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
@@ -18,9 +17,19 @@ public class PaymentRequestProducer {
 	@Autowired
 	private ObjectMapper objectMapper;
 	
-	public void send(PaymentRequest paymentRequest) throws JsonProcessingException {
-		var json = objectMapper.writeValueAsString(paymentRequest);
-		kafkaTemplate.send("t-payment-request", paymentRequest.getPaymentNumber(), json);
+	public void send(SimpleNumber simpleNumber) throws JsonProcessingException {
+		var json = objectMapper.writeValueAsString(simpleNumber);
+		
+		kafkaTemplate.send("t-simple-number", json);
 	}
-	
 }
+
+
+
+
+
+
+
+
+
+

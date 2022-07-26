@@ -15,6 +15,7 @@ import org.springframework.kafka.listener.adapter.RecordFilterStrategy;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.virtusa.kafka.entity.CarLocation;
+import com.virtusa.kafka.error.handler.GlobalErrorHandler;
 
 @Configuration
 public class KafkaConfig {
@@ -62,6 +63,18 @@ public class KafkaConfig {
 		
 		return factory;
 		
+	}
+
+	@Bean(name = "kafkaListenerContainerFactory")
+	public ConcurrentKafkaListenerContainerFactory<Object, Object> kafkaListenerContainerFactory(
+				ConcurrentKafkaListenerContainerFactoryConfigurer configurer){
+		
+		var factory = new ConcurrentKafkaListenerContainerFactory<Object, Object>();
+		configurer.configure(factory, consumerFactory());
+		
+		factory.setErrorHandler(new GlobalErrorHandler());
+		
+		return factory;
 	}
 }
 

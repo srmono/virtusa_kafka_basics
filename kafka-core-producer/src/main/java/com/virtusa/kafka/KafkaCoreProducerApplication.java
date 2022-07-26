@@ -10,14 +10,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 import com.virtusa.kafka.entity.Employee;
+import com.virtusa.kafka.entity.FoodOrder;
 import com.virtusa.kafka.entity.PaymentRequest;
 import com.virtusa.kafka.entity.PurchaseRequest;
+import com.virtusa.kafka.entity.SimpleNumber;
 import com.virtusa.kafka.producer.Employee2JsonProducer;
 import com.virtusa.kafka.producer.EmployeeJsonProducer;
+import com.virtusa.kafka.producer.FoodOrderProducer;
 import com.virtusa.kafka.producer.HelloKafkaProducer;
 import com.virtusa.kafka.producer.KafkaKeyProducer;
 import com.virtusa.kafka.producer.PaymentRequestProducer;
 import com.virtusa.kafka.producer.PurchaseRequestProducer;
+import com.virtusa.kafka.producer.SimpleNumberProducer;
 
 @SpringBootApplication
 @EnableScheduling
@@ -38,8 +42,14 @@ public class KafkaCoreProducerApplication implements CommandLineRunner {
 //	@Autowired
 //	private PurchaseRequestProducer producer;
 	
+//	@Autowired
+//	private PaymentRequestProducer producer;
+	
 	@Autowired
-	private PaymentRequestProducer producer;
+	private FoodOrderProducer producer;
+	
+	@Autowired
+	private SimpleNumberProducer simpleNumberProducer;
 
 	public static void main(String[] args) {
 		SpringApplication.run(KafkaCoreProducerApplication.class, args);
@@ -75,25 +85,40 @@ public class KafkaCoreProducerApplication implements CommandLineRunner {
 		
 		
 		//Payment request 
-		var paymentRequestAlpha_Transaction1 = new PaymentRequest("Payment-Alpha", 551, "USD", "Notes Alpha", "Budget Reserve");
-		var paymentRequestAlpha_Transaction2 = new PaymentRequest("Payment-Alpha", 551, "USD", "Notes Alpha", "Aproval Workflow");
-		var paymentRequestAlpha_Transaction3 = new PaymentRequest("Payment-Alpha", 551, "USD", "Notes Alpha", "Push notification");
+//		var paymentRequestAlpha_Transaction1 = new PaymentRequest("Payment-Alpha", 551, "USD", "Notes Alpha", "Budget Reserve");
+//		var paymentRequestAlpha_Transaction2 = new PaymentRequest("Payment-Alpha", 551, "USD", "Notes Alpha", "Aproval Workflow");
+//		var paymentRequestAlpha_Transaction3 = new PaymentRequest("Payment-Alpha", 551, "USD", "Notes Alpha", "Push notification");
+//		
+//		var paymentRequestBeta_Transaction1 = new PaymentRequest("Payment-Beta", 552, "USD", "Notes Beta", "Budget Reserve");
+//		var paymentRequestBeta_Transaction2 = new PaymentRequest("Payment-Beta", 552, "USD", "Notes Beta", "Aproval Workflow");
+//		var paymentRequestBeta_Transaction3 = new PaymentRequest("Payment-Beta", 553, "USD", "Notes Beta", "Push notification");
+//		
+//		
+//		producer.send(paymentRequestAlpha_Transaction1);
+//		producer.send(paymentRequestAlpha_Transaction2);
+//		producer.send(paymentRequestAlpha_Transaction3);
+//		
+//		producer.send(paymentRequestBeta_Transaction1);
+//		producer.send(paymentRequestBeta_Transaction2);
+//		producer.send(paymentRequestBeta_Transaction3);
+//		
+//		producer.send(paymentRequestAlpha_Transaction2);
+//		producer.send(paymentRequestBeta_Transaction3);
 		
-		var paymentRequestBeta_Transaction1 = new PaymentRequest("Payment-Beta", 552, "USD", "Notes Beta", "Budget Reserve");
-		var paymentRequestBeta_Transaction2 = new PaymentRequest("Payment-Beta", 552, "USD", "Notes Beta", "Aproval Workflow");
-		var paymentRequestBeta_Transaction3 = new PaymentRequest("Payment-Beta", 553, "USD", "Notes Beta", "Push notification");
+		//food order 
+//		
+		var vegOrder = new FoodOrder(18, "Veg");
+		var fruitOrder = new FoodOrder(36, "Fruits");
+		var pizzaOrder = new FoodOrder(45, "Pizza");
 		
+		producer.send(vegOrder);
+		producer.send(fruitOrder);
+		producer.send(pizzaOrder);
 		
-		producer.send(paymentRequestAlpha_Transaction1);
-		producer.send(paymentRequestAlpha_Transaction2);
-		producer.send(paymentRequestAlpha_Transaction3);
-		
-		producer.send(paymentRequestBeta_Transaction1);
-		producer.send(paymentRequestBeta_Transaction2);
-		producer.send(paymentRequestBeta_Transaction3);
-		
-		producer.send(paymentRequestAlpha_Transaction2);
-		producer.send(paymentRequestBeta_Transaction3);
+		for(int i = 50; i < 53; i++) {
+			var simpleNumber = new SimpleNumber(i);
+			simpleNumberProducer.send(simpleNumber);
+		}
 	}
 
 }

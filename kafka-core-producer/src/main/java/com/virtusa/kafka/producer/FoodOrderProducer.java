@@ -6,21 +6,29 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.virtusa.kafka.entity.PaymentRequest;
-import com.virtusa.kafka.entity.PurchaseRequest;
+import com.virtusa.kafka.entity.FoodOrder;
 
-//@Service
-public class PaymentRequestProducer {
-
+@Service
+public class FoodOrderProducer {
+	
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
 	
 	@Autowired
 	private ObjectMapper objectMapper;
 	
-	public void send(PaymentRequest paymentRequest) throws JsonProcessingException {
-		var json = objectMapper.writeValueAsString(paymentRequest);
-		kafkaTemplate.send("t-payment-request", paymentRequest.getPaymentNumber(), json);
+	public void send(FoodOrder foodOrder) throws JsonProcessingException {
+		
+		var json = objectMapper.writeValueAsString(foodOrder);
+		
+		kafkaTemplate.send("t-food-order", json);
 	}
-	
+
 }
+
+
+
+
+
+
+

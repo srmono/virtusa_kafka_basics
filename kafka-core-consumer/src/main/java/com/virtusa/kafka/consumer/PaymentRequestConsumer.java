@@ -16,7 +16,7 @@ import com.github.benmanes.caffeine.cache.Cache;
 import com.virtusa.kafka.entity.PaymentRequest;
 import com.virtusa.kafka.entity.PurchaseRequest;
 
-@Service
+//@Service
 public class PaymentRequestConsumer {
 
 	private static final Logger LOG = LoggerFactory.getLogger(PaymentRequestConsumer.class);

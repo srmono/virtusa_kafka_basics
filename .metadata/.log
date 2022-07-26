@@ -5686,3 +5686,1107 @@ java.lang.InterruptedException
 
 !ENTRY Activator 1 0 2022-07-26 19:50:16.454
 !MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:09:48.519
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:09:48.519
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:09:48.532
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:09:48.532
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:09:49.108
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:09:49.115
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:09:49.163
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:09:49.165
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:07.107
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:07.107
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:07.107
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:07.107
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:07.756
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:07.756
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:07.756
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:07.757
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:16.951
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:16.951
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:16.952
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:16.952
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:17.566
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:17.567
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:17.568
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:17.578
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:57.519
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:57.520
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:57.521
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:57.521
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:58.092
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:58.110
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:58.111
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:11:58.115
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:42.818
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:42.818
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:42.818
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:42.819
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:43.452
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:43.453
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:43.470
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:43.476
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:44.695
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:44.695
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:44.695
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:44.723
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:45.326
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:45.327
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:45.336
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:12:45.337
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:13:29.836
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:13:29.837
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:13:29.837
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:13:29.837
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:13:30.505
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:13:30.510
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:13:30.511
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:13:30.518
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:34.961
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:34.962
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:34.962
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:34.963
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:35.582
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:35.584
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:35.586
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:35.594
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:55.183
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:55.184
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:55.184
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:55.184
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:55.800
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:55.807
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:55.812
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:14:55.825
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:15:25.523
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:15:25.524
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:15:25.525
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:15:25.527
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:15:26.147
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:15:26.147
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:15:26.156
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:15:26.161
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:01.965
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:01.966
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:01.966
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:01.966
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:02.835
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:02.836
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:02.836
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:02.842
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:26.059
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:26.060
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:26.060
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:26.061
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:26.668
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:26.688
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:26.698
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:16:26.701
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:17:39.686
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:17:39.687
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:17:39.687
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:17:39.688
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:17:40.636
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:17:40.636
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:17:40.637
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:17:40.638
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-07-26 20:18:24.912
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-07-26 20:18:29.438
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:18:29.438
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:18:29.438
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:18:29.439
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:18:30.232
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:18:30.232
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:18:30.233
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:18:30.236
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:19.856
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:19.857
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:19.857
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:19.857
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:20.503
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:20.512
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:20.513
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:20.524
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:31.414
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:31.414
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:31.415
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:31.415
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:32.038
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:32.039
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:32.047
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:32.059
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:40.383
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:40.384
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:40.384
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:40.385
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:41.002
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:41.004
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:41.010
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:19:41.021
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:12.762
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:12.763
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:12.763
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:12.763
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:13.593
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:13.594
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:13.595
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:13.602
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:22.953
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:22.954
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:22.954
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:22.954
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:23.570
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:23.570
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:23.572
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:23.580
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:29.372
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:29.373
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:29.373
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:29.373
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:29.992
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:29.995
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:29.996
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:20:30.025
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:05.436
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:05.437
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:05.438
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:05.441
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:06.388
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:06.390
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:06.394
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:06.397
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-07-26 20:21:43.121
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-07-26 20:21:44.050
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:44.051
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:44.052
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:44.052
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:44.666
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:44.676
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:44.684
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:44.687
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:46.969
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:46.972
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:46.973
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:46.974
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:47.591
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:47.614
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:47.622
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:21:47.636
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:04.841
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:04.842
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:04.842
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:04.843
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:05.575
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:05.577
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:05.582
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:05.582
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:31.634
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:31.636
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:31.638
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:31.641
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:32.276
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:32.311
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:32.321
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:32.342
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:34.126
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:34.127
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:34.129
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:34.131
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:34.945
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:34.945
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:34.946
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:22:34.946
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:23:11.261
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:23:11.261
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:23:11.263
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:23:11.263
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:23:11.886
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:23:11.891
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:23:11.892
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:23:11.912
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:24:02.628
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:24:02.629
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:24:02.629
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:24:02.630
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:24:03.370
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:24:03.380
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:24:03.388
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:24:03.419
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:13.394
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:13.395
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:13.396
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:13.396
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:14.135
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:14.135
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:14.136
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:14.137
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:22.795
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:22.795
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:22.796
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:22.796
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:23.444
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:23.446
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:23.447
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:23.462
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:32.447
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:32.447
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:32.447
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:32.447
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:33.051
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:33.056
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:33.056
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:33.071
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:48.878
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:48.883
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:48.884
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:48.884
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:49.682
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:49.690
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:49.708
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:25:49.722
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:26.413
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:26.414
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:26.414
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:26.465
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:27.155
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:27.156
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:27.158
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:27.166
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:44.282
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:44.283
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:44.284
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:44.285
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:44.986
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:44.986
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:44.987
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:26:44.987
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:04.869
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:04.869
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:04.869
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:04.870
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:05.600
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:05.631
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:05.633
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:05.653
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:48.458
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:48.462
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:48.463
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:48.466
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:49.091
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:49.092
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:49.142
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:27:49.156
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:28:53.132
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:28:53.132
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:28:53.133
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:28:53.133
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:28:53.803
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:28:53.825
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:28:53.832
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:28:53.883
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:29:00.868
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:29:00.870
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:29:00.870
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:29:00.870
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:29:01.545
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:29:01.545
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:29:01.554
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:29:01.575
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:31:01.956
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:31:01.957
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:31:01.957
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:31:01.957
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:31:02.621
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:31:02.623
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:31:02.647
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:31:02.654
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:30.268
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:30.269
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:30.270
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:30.270
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:30.966
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:31.004
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:31.026
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:31.032
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:42.178
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:42.179
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:42.180
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:42.180
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:42.824
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:42.880
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:42.884
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:32:42.884
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:33:31.914
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:33:31.915
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:33:31.916
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:33:31.929
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:33:32.640
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:33:32.640
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:33:32.646
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:33:32.647
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:34:31.124
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:34:31.126
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:34:31.126
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:34:31.127
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:34:31.823
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:34:31.834
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:34:31.838
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:34:31.854
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:35:26.691
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:35:26.691
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:35:26.691
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:35:26.691
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:35:27.326
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:35:27.331
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:35:27.336
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:35:27.347
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:38:24.858
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:38:24.858
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:38:24.859
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:38:24.860
+!MESSAGE Has main method computation for project 'kafka-core-producer'
+
+!ENTRY Activator 1 0 2022-07-26 20:38:25.476
+!MESSAGE Has main method computation for project 'kafka-core-consumer'
+
+!ENTRY Activator 1 0 2022-07-26 20:38:25.486
+!MESSAGE Has main method computation for project 'apache-kafka-consumer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:38:25.493
+!MESSAGE Has main method computation for project 'apache-kafka-producer-demo'
+
+!ENTRY Activator 1 0 2022-07-26 20:38:25.527
+!MESSAGE Has main method computation for project 'kafka-core-producer'

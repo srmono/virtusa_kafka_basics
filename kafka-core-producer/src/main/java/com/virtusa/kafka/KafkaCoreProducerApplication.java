@@ -18,10 +18,12 @@ import com.virtusa.kafka.producer.Employee2JsonProducer;
 import com.virtusa.kafka.producer.EmployeeJsonProducer;
 import com.virtusa.kafka.producer.FoodOrderProducer;
 import com.virtusa.kafka.producer.HelloKafkaProducer;
+import com.virtusa.kafka.producer.ImageProducer;
 import com.virtusa.kafka.producer.KafkaKeyProducer;
 import com.virtusa.kafka.producer.PaymentRequestProducer;
 import com.virtusa.kafka.producer.PurchaseRequestProducer;
 import com.virtusa.kafka.producer.SimpleNumberProducer;
+import com.virtusa.kafka.service.ImageService;
 
 @SpringBootApplication
 @EnableScheduling
@@ -45,11 +47,17 @@ public class KafkaCoreProducerApplication implements CommandLineRunner {
 //	@Autowired
 //	private PaymentRequestProducer producer;
 	
-	@Autowired
-	private FoodOrderProducer producer;
+//	@Autowired
+//	private FoodOrderProducer producer;
+//	
+//	@Autowired
+//	private SimpleNumberProducer simpleNumberProducer;
 	
 	@Autowired
-	private SimpleNumberProducer simpleNumberProducer;
+	private ImageProducer producer;
+	
+	@Autowired
+	private ImageService imageService;
 
 	public static void main(String[] args) {
 		SpringApplication.run(KafkaCoreProducerApplication.class, args);
@@ -107,18 +115,35 @@ public class KafkaCoreProducerApplication implements CommandLineRunner {
 		
 		//food order 
 //		
-		var vegOrder = new FoodOrder(18, "Veg");
-		var fruitOrder = new FoodOrder(36, "Fruits");
-		var pizzaOrder = new FoodOrder(45, "Pizza");
+//		var vegOrder = new FoodOrder(18, "Veg");
+//		var fruitOrder = new FoodOrder(36, "Fruits");
+//		var pizzaOrder = new FoodOrder(45, "Pizza");
+//		
+//		producer.send(vegOrder);
+//		producer.send(fruitOrder);
+//		producer.send(pizzaOrder);
+//		
+//		for(int i = 50; i < 53; i++) {
+//			var simpleNumber = new SimpleNumber(i);
+//			simpleNumberProducer.send(simpleNumber);
+//		}
 		
-		producer.send(vegOrder);
-		producer.send(fruitOrder);
-		producer.send(pizzaOrder);
+		//Image generation 
+		var image1 = imageService.generateImage("jpg");
+		var image2 = imageService.generateImage("svg");
+		var image3 = imageService.generateImage("png");
+		var image4 = imageService.generateImage("gif");
+		var image5 = imageService.generateImage("bmp");
+		var image6 = imageService.generateImage("tiff");
 		
-		for(int i = 50; i < 53; i++) {
-			var simpleNumber = new SimpleNumber(i);
-			simpleNumberProducer.send(simpleNumber);
-		}
+		producer.send(image1, 0);
+		producer.send(image2, 0);
+		producer.send(image3, 0);
+		producer.send(image4, 1);
+		producer.send(image5, 1);
+		producer.send(image6, 1);
+		
+		
 	}
 
 }

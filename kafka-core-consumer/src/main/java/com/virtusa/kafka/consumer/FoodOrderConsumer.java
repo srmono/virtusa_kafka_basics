@@ -11,7 +11,7 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.virtusa.kafka.entity.FoodOrder;
 
-@Service
+//@Service
 public class FoodOrderConsumer {
 
 	public static final Logger LOG = LoggerFactory.getLogger(FoodOrderConsumer.class);

@@ -6,27 +6,23 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.virtusa.kafka.entity.SimpleNumber;
+import com.virtusa.kafka.entity.Image;
 
-//@Service
-public class SimpleNumberProducer {
-
+@Service
+public class ImageProducer {
+	
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
-	
+
 	@Autowired
 	private ObjectMapper objectMapper;
 	
-	public void send(SimpleNumber simpleNumber) throws JsonProcessingException {
-		var json = objectMapper.writeValueAsString(simpleNumber);
+	public void send(Image image, int partition) throws JsonProcessingException {
+		var json = objectMapper.writeValueAsString(image);
 		
-		kafkaTemplate.send("t-simple-number", json);
+		kafkaTemplate.send("t-image", partition, image.getType(), json);
 	}
 }
-
-
-
-
 
 
 

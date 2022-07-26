@@ -85,3 +85,23 @@ kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-purchase-re
 
 
 kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-payment-request --partitions 1 --replication-factor 1
+
+
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --offset earliest --partition 0 --topic t-payment-request
+
+--------------
+Exception handling
+
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-food-order --partitions 1 --replication-factor 1
+
+-- Global error handler
+
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-simple-number --partitions 1 --replication-factor 1
+
+-- Retry mechanism
+
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-image --partitions 2 --replication-factor 1
+
+
+kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic t-image
+

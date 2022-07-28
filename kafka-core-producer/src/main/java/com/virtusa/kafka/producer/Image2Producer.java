@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.virtusa.kafka.entity.Image;
 
 //@Service
-public class ImageProducer {
+public class Image2Producer {
 	
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
@@ -20,7 +20,7 @@ public class ImageProducer {
 	public void send(Image image, int partition) throws JsonProcessingException {
 		var json = objectMapper.writeValueAsString(image);
 		
-		kafkaTemplate.send("t-image", partition, image.getType(), json);
+		kafkaTemplate.send("t-image-2", partition, image.getType(), json);
 	}
 }
 

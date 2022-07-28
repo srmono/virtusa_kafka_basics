@@ -18,12 +18,15 @@ import com.virtusa.kafka.producer.Employee2JsonProducer;
 import com.virtusa.kafka.producer.EmployeeJsonProducer;
 import com.virtusa.kafka.producer.FoodOrderProducer;
 import com.virtusa.kafka.producer.HelloKafkaProducer;
+import com.virtusa.kafka.producer.Image2Producer;
 import com.virtusa.kafka.producer.ImageProducer;
+import com.virtusa.kafka.producer.InvoiceProducer;
 import com.virtusa.kafka.producer.KafkaKeyProducer;
 import com.virtusa.kafka.producer.PaymentRequestProducer;
 import com.virtusa.kafka.producer.PurchaseRequestProducer;
 import com.virtusa.kafka.producer.SimpleNumberProducer;
 import com.virtusa.kafka.service.ImageService;
+import com.virtusa.kafka.service.InvoiceService;
 
 @SpringBootApplication
 @EnableScheduling
@@ -53,11 +56,20 @@ public class KafkaCoreProducerApplication implements CommandLineRunner {
 //	@Autowired
 //	private SimpleNumberProducer simpleNumberProducer;
 	
-	@Autowired
-	private ImageProducer producer;
+//	@Autowired
+//	private ImageProducer producer;
+	
+//	@Autowired
+//	private Image2Producer producer;
+//	
+//	@Autowired
+//	private ImageService imageService;
 	
 	@Autowired
-	private ImageService imageService;
+	private InvoiceService invoiceService;
+	
+	@Autowired
+	private InvoiceProducer producer;
 
 	public static void main(String[] args) {
 		SpringApplication.run(KafkaCoreProducerApplication.class, args);
@@ -128,20 +140,35 @@ public class KafkaCoreProducerApplication implements CommandLineRunner {
 //			simpleNumberProducer.send(simpleNumber);
 //		}
 		
-		//Image generation 
-		var image1 = imageService.generateImage("jpg");
-		var image2 = imageService.generateImage("svg");
-		var image3 = imageService.generateImage("png");
-		var image4 = imageService.generateImage("gif");
-		var image5 = imageService.generateImage("bmp");
-		var image6 = imageService.generateImage("tiff");
 		
-		producer.send(image1, 0);
-		producer.send(image2, 0);
-		producer.send(image3, 0);
-		producer.send(image4, 1);
-		producer.send(image5, 1);
-		producer.send(image6, 1);
+		//Generate invoices (dead letter topic)
+		
+		for(int i =0; i < 10; i++) {
+			var invoice = invoiceService.generateInvoice();
+			
+			if(i > 5) {
+				invoice.setAmount(0);
+			}
+			
+			producer.send(invoice);
+		}
+		
+		
+		
+		//Image generation 
+//		var image1 = imageService.generateImage("jpg");
+//		var image2 = imageService.generateImage("svg");//4 times in the consumer
+//		var image3 = imageService.generateImage("gif");
+//		var image4 = imageService.generateImage("gif");
+//		var image5 = imageService.generateImage("gif");
+//		var image6 = imageService.generateImage("gif");
+//		
+//		producer.send(image1, 0);
+//		producer.send(image2, 0);
+//		producer.send(image3, 0);
+//		producer.send(image4, 1);
+//		producer.send(image5, 1);
+//		producer.send(image6, 1);
 		
 		
 	}

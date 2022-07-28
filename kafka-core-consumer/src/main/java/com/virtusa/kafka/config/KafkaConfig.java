@@ -2,6 +2,7 @@ package com.virtusa.kafka.config;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.apache.kafka.common.TopicPartition;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer;
 import org.springframework.boot.autoconfigure.kafka.KafkaProperties;
@@ -10,6 +11,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.kafka.listener.DeadLetterPublishingRecoverer;
 import org.springframework.kafka.listener.DefaultErrorHandler;
 import org.springframework.kafka.listener.adapter.RecordFilterStrategy;
 import org.springframework.util.backoff.FixedBackOff;
@@ -93,6 +96,26 @@ public class KafkaConfig {
 								new FixedBackOff(10000, 3)
 							)
 				);
+		
+		return factory;
+	}
+	
+	
+	
+	@Bean(name = "invoiceDltContainerFactory")
+	public ConcurrentKafkaListenerContainerFactory<Object, Object> invoiceDltContainerFactory(
+				ConcurrentKafkaListenerContainerFactoryConfigurer configurer,
+				KafkaTemplate<String, String> kafkaTemplate
+				){
+		
+		var factory = new ConcurrentKafkaListenerContainerFactory<Object, Object>();
+		configurer.configure(factory, consumerFactory());
+		
+		var recoverer = new DeadLetterPublishingRecoverer(
+					kafkaTemplate, 
+					(record, ex) -> new TopicPartition("t-invoice-dead", record.partition()) 
+				);
+		factory.setCommonErrorHandler(new DefaultErrorHandler(recoverer, new FixedBackOff(3000, 5)));
 		
 		return factory;
 	}

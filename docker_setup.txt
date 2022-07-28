@@ -105,3 +105,15 @@ kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-image --par
 
 kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic t-image
 
+--
+Non blocking re try 
+
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-image-2 --partitions 2 --replication-factor 1
+
+-- 
+Dead letter topic 
+
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-invoice --partitions 2 --replication-factor 1
+
+kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-invoice-dead --partitions 2 --replication-factor 1
+

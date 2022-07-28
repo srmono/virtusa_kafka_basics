@@ -6,23 +6,30 @@ import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.virtusa.kafka.entity.Image;
+import com.virtusa.kafka.entity.Invoice;
 
-//@Service
-public class ImageProducer {
-	
+@Service
+public class InvoiceProducer {
+
 	@Autowired
 	private KafkaTemplate<String, String> kafkaTemplate;
-
+	
 	@Autowired
 	private ObjectMapper objectMapper;
 	
-	public void send(Image image, int partition) throws JsonProcessingException {
-		var json = objectMapper.writeValueAsString(image);
+	public void send(Invoice invoice) throws JsonProcessingException {
+		var json = objectMapper.writeValueAsString(invoice);
 		
-		kafkaTemplate.send("t-image", partition, image.getType(), json);
+		kafkaTemplate.send("t-invoice", invoice.getAmount()%2, invoice.getInvoiceNumber(), json);
 	}
+	
 }
+
+
+
+
+
+
 
 
 

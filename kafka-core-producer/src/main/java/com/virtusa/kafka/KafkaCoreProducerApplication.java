@@ -65,11 +65,11 @@ public class KafkaCoreProducerApplication implements CommandLineRunner {
 //	@Autowired
 //	private ImageService imageService;
 	
-	@Autowired
-	private InvoiceService invoiceService;
-	
-	@Autowired
-	private InvoiceProducer producer;
+//	@Autowired
+//	private InvoiceService invoiceService;
+//	
+//	@Autowired
+//	private InvoiceProducer producer;
 
 	public static void main(String[] args) {
 		SpringApplication.run(KafkaCoreProducerApplication.class, args);
@@ -143,17 +143,15 @@ public class KafkaCoreProducerApplication implements CommandLineRunner {
 		
 		//Generate invoices (dead letter topic)
 		
-		for(int i =0; i < 10; i++) {
-			var invoice = invoiceService.generateInvoice();
-			
-			if(i > 5) {
-				invoice.setAmount(0);
-			}
-			
-			producer.send(invoice);
-		}
-		
-		
+//		for(int i =0; i < 10; i++) {
+//			var invoice = invoiceService.generateInvoice();
+//			
+//			if(i > 5) {
+//				invoice.setAmount(0);
+//			}
+//			
+//			producer.send(invoice);
+//		}
 		
 		//Image generation 
 //		var image1 = imageService.generateImage("jpg");
@@ -170,26 +168,5 @@ public class KafkaCoreProducerApplication implements CommandLineRunner {
 //		producer.send(image5, 1);
 //		producer.send(image6, 1);
 		
-		
 	}
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

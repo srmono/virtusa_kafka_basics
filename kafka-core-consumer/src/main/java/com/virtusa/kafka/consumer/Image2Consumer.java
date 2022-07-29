@@ -26,7 +26,8 @@ public class Image2Consumer {
 	@RetryableTopic(
 				autoCreateTopics = "true", attempts = "4",
 				topicSuffixingStrategy = TopicSuffixingStrategy.SUFFIX_WITH_INDEX_VALUE,
-				backoff = @Backoff(delay = 3000, maxDelay = 10_000, multiplier = 1.5, random = true)
+				backoff = @Backoff(delay = 3000, maxDelay = 10_000, multiplier = 1.5, random = true),
+				dltTopicSuffix = "-dead"
 			)
 	@KafkaListener(topics = "t-image-2", concurrency = "2")
 	public void consume(ConsumerRecord<String, String> consumerRecord) throws JsonMappingException, JsonProcessingException {

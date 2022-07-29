@@ -117,3 +117,7 @@ kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-invoice --p
 
 kafka-topics.sh --bootstrap-server localhost:9092 --create --topic t-invoice-dead --partitions 2 --replication-factor 1
 
+
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --offset earliest --partition 0 --topic t-invoice
+
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --offset earliest --partition 1 --topic t-invoice
